@@ -1,0 +1,143 @@
+.mail-style-rewrite-btn {
+  position: fixed;
+  z-index: 2147483647;
+  display: none;
+  align-items: center;
+  padding: 6px 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #041827;
+  background: #dcea87;
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.mail-style-rewrite-btn:hover {
+  filter: brightness(1.05);
+}
+
+.mail-style-rewrite-btn:disabled {
+  opacity: 0.75;
+  cursor: default;
+}
+
+.mail-style-panel {
+  position: fixed;
+  z-index: 2147483647;
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+  width: 320px;
+  max-height: 340px;
+  padding: 12px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  color: #041827;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.3);
+}
+
+.mail-style-panel-preview {
+  max-height: 160px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  padding: 8px;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  background: #fafafa;
+  line-height: 1.4;
+}
+
+.mail-style-panel-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.mail-style-panel-actions button {
+  flex: 1;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.mail-style-accept-btn {
+  background: #dcea87;
+  color: #041827;
+}
+
+.mail-style-cancel-btn {
+  background: #eee;
+  color: #041827;
+}
+
+.mail-style-panel-improve {
+  display: flex;
+  gap: 6px;
+}
+
+.mail-style-improve-input {
+  flex: 1;
+  min-width: 0;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+.mail-style-improve-btn {
+  flex: 0 0 auto;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  background: #041827;
+  color: #fff;
+}
+
+.mail-style-improve-btn:disabled,
+.mail-style-panel-actions button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.mail-style-hint {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 2147483647;
+  display: none;
+  align-items: center;
+  gap: 8px;
+  max-width: 300px;
+  padding: 10px 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #041827;
+  background: #dcea87;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.mail-style-hint-close {
+  flex: 0 0 auto;
+  border: none;
+  background: transparent;
+  color: #041827;
+  font-size: 16px;
+  line-height: 1;
+  padding: 0 2px;
+  cursor: pointer;
+}
